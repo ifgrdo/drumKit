@@ -37,7 +37,6 @@ buttons.forEach((button) => {
 })
 
 document.addEventListener("keypress", (event) => {
-
     if(Object.keys(dictionary).includes(event.key)) {
         var button = document.getElementById(event.key);
         button.style.color = "white";
